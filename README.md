@@ -2,7 +2,9 @@
 
 This repository accompanies the paper:
 
-NNOSE: Nearest Neighbor Occupational Skill Extraction
+**NNOSE: Nearest Neighbor Occupational Skill Extraction**
+
+Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. To appear at EACL 2024.
 
 <image src="img/figure1.png"></image>
 
