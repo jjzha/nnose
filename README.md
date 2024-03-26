@@ -4,7 +4,7 @@ This repository accompanies the paper:
 
 **NNOSE: Nearest Neighbor Occupational Skill Extraction**
 
-Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. To appear at EACL 2024.
+Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. In EACL 2024.
 
 <image src="img/figure1.png"></image>
 
@@ -163,3 +163,28 @@ python3 src/analysis/plot_umap.py --output_dir plots/
 # Questions
 
 If there's any questions, please reach out to \<email\>.
+
+# Citation
+
+If you have been using this work in your cool work, consider citing it:
+
+```
+@inproceedings{zhang-etal-2024-nnose,
+    title = "{NNOSE}: Nearest Neighbor Occupational Skill Extraction",
+    author = "Zhang, Mike  and
+      Goot, Rob  and
+      Kan, Min-Yen  and
+      Plank, Barbara",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.35",
+    pages = "589--608",
+    abstract = "The labor market is changing rapidly, prompting increased interest in the automatic extraction of occupational skills from text. With the advent of English benchmark job description datasets, there is a need for systems that handle their diversity well. We tackle the complexity in occupational skill datasets tasks{---}combining and leveraging multiple datasets for skill extraction, to identify rarely observed skills within a dataset, and overcoming the scarcity of skills across datasets. In particular, we investigate the retrieval-augmentation of language models, employing an external datastore for retrieving similar skills in a dataset-unifying manner. Our proposed method, \textbf{N}earest \textbf{N}eighbor \textbf{O}ccupational \textbf{S}kill \textbf{E}xtraction (NNOSE) effectively leverages multiple datasets by retrieving neighboring skills from other datasets in the datastore. This improves skill extraction \textit{without} additional fine-tuning. Crucially, we observe a performance gain in predicting infrequent patterns, with substantial gains of up to 30{\%} span-F1 in cross-dataset settings.",
+}
+
+```
